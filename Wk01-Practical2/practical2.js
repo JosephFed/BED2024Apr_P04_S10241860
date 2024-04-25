@@ -2,7 +2,7 @@ const express = require('express')
 const app = express();
 const PORT = 3000
 
-app.listen(PORT, () => { //node index.js to run the code
+app.listen(PORT, () => { //node practical2.js to run the code
       console.log(`Express app listening on port ${PORT}, http://localhost:${PORT}/`)
     })
 
