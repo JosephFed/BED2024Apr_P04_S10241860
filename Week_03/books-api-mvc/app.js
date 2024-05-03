@@ -12,8 +12,6 @@ app.get("/books", booksController.getAllBooks);
 app.get("/books/:id", booksController.getBookById);
 app.post("/books", validateBook, booksController.createBook); // Add validateBook before createBook
 app.put("/books/:id", validateBook, booksController.updateBook); // Add validateBook before updateBook
-app.post("/books", booksController.createBook);
-app.put("/books/:id", booksController.updateBook);
 app.delete("/books/:id", booksController.deleteBook);
 
 
