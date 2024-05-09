@@ -67,6 +67,8 @@ const deleteBook = async (req, res) => {
   }
 };
 
+//If forgot to export the functions
+// There will be a route error when running app.js
 module.exports = {
   getAllBooks,
   createBook,
